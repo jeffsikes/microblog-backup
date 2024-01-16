@@ -7,12 +7,39 @@
 	"items": [
 		
 			{
+				"id": "http://box464.micro.blog/2024/01/15/got-my-admin.html",
+				
+				"content_html": "<p>Got my Admin Beginner trail completed.  Excited to start intermediate this week! My team is now meeting Mondays and Fridays to talk about what we&rsquo;ve learned and how it could be utilized in our company.</p>\n<p>We haven&rsquo;t made the jump to Salesforce YET, but plan to within the year. Lots to do before then.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Got my Admin Beginner trail completed.  Excited to start intermediate this week! My team is now meeting Mondays and Fridays to talk about what we've learned and how it could be utilized in our company. \r\n\r\nWe haven't made the jump to Salesforce YET, but plan to within the year. Lots to do before then.\n\n<img src=\"uploads/2024/screenshot-2024-01-15-at-11.47.34pm.png\" width=\"600\" height=\"258\" alt=\"A screenshot of my completed Admin Beginner trail. Green checkmark!\">\n",
+				"date_published": "2024-01-15T23:50:16-06:00",
+				"url": "https://box464.micro.blog/2024/01/15/got-my-admin.html"
+			},
+			{
+				"id": "http://box464.micro.blog/2024/01/07/im-amused-to.html",
+				
+				"content_html": "<p>I&rsquo;m amused to find that #Salesforce dashboards allow animated gifs. Is it useful? Not in any way I see right now.</p>\n<p>Will I use it for personal dashboards? Maybe. 🤭</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I'm amused to find that #Salesforce dashboards allow animated gifs. Is it useful? Not in any way I see right now. \n\nWill I use it for personal dashboards? Maybe. 🤭\n\n<img src=\"uploads/2024/0fbd5c90e9.png\" width=\"600\" height=\"309\" alt=\"A Salesforce playground starter dashboard with an animated gif of a person sipping tea. Links to my personal sites are below, and a pie chart of current case statuses sits to the right. Opportunities to work report sits below.\">\n",
+				"date_published": "2024-01-07T15:41:15-06:00",
+				"url": "https://box464.micro.blog/2024/01/07/im-amused-to.html",
+				"tags": ["salesforce"]
+			},
+			{
+				"id": "http://box464.micro.blog/2024/01/06/getting-close-to.html",
+				
+				"content_html": "<p>Getting close to completing the Admin Beginner trail. I keep getting surprised with the number of things included with the base #Salesforce implementation compared to our current platform. Today, it was the learning paths and guidance modules that are fairly customizable. Handy.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Getting close to completing the Admin Beginner trail. I keep getting surprised with the number of things included with the base #Salesforce implementation compared to our current platform. Today, it was the learning paths and guidance modules that are fairly customizable. Handy.\n\n<img src=\"uploads/2024/sf-guided-dock.webp\" width=\"483\" height=\"468\" alt=\"A screenshot of a Salesforce prompt showing a video tutorial.\">\n",
+				"date_published": "2024-01-06T09:45:49-06:00",
+				"url": "https://box464.micro.blog/2024/01/06/getting-close-to.html",
+				"tags": ["salesforce"]
+			},
+			{
 				"id": "http://box464.micro.blog/2024/01/04/i-want-to.html",
 				
-				"content_html": "<p>I want to start learning keyboard shortcuts for #Salesforce so I can get in the habit of using them. Is this the appropriate list, anyone have some extra special hidden secret ones to share?</p>\n<p><a href=\"https://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&amp;type=5\">https://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&amp;type=5</a></p>\n",
-				"content_text": "I want to start learning keyboard shortcuts for #Salesforce so I can get in the habit of using them. Is this the appropriate list, anyone have some extra special hidden secret ones to share? \n\nhttps://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&type=5\n",
+				"content_html": "<p>I want to start learning keyboard shortcuts for #Salesforce so I can get in the habit of using them. Is this the appropriate list, anyone have some extra special hidden secret ones to share?</p>\n<p><a href=\"https://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&amp;type=5\">Keyboard Shortcuts for Salesforce</a></p>\n",
+				"content_text": "I want to start learning keyboard shortcuts for #Salesforce so I can get in the habit of using them. Is this the appropriate list, anyone have some extra special hidden secret ones to share? \n\n[Keyboard Shortcuts for Salesforce](https://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&type=5)\n",
 				"date_published": "2024-01-04T20:48:26-06:00",
-				"url": "https://box464.micro.blog/2024/01/04/i-want-to.html"
+				"url": "https://box464.micro.blog/2024/01/04/i-want-to.html",
+				"tags": ["salesforce"]
 			},
 			{
 				"id": "http://box464.micro.blog/2024/01/02/worked-through-a.html",
