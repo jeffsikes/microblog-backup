@@ -1,6 +1,6 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Jeff Sikes",
+	"title": "That blog",
 	"icon": "https://micro.blog/box464/avatar.jpg",
 	"home_page_url": "https://box464.micro.blog/",
 	"feed_url": "https://box464.micro.blog/feed.json",
@@ -11,7 +11,7 @@
 				
 				"content_html": "<p>A few art inspirations I came across recently.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
 				"content_text": "A few art inspirations I came across recently.\n\n<img src=\"uploads/2024/04e1ec4ce1574704b64f42ce8533e451.jpg\" width=\"600\" height=\"450\" alt=\"Two large, heavy metal sculptures of elephant heads. Onyx in color, the trunks hang down from the shelf. I think they are bookends?\"><img src=\"uploads/2024/a9253b49b6df4597a1b2e6cec48efd97.jpg\" width=\"450\" height=\"600\" alt=\"A painting titled &quot;Disco Twiggy&quot; with no artist name visible. It's quite large, on a white background. Looks like a giant profile sketch.\"><img src=\"uploads/2024/ac9dfabe6d8e4d12b518c72c48581986.jpg\" width=\"450\" height=\"600\" alt=\"Various colorful Picasso type paintings. One is an imaginative take on the Mona Lisa in Picasso style.\"><img src=\"uploads/2024/dfed762181324b3396b9a87da70128f8.jpg\" width=\"600\" height=\"450\" alt=\"A bejeweled white guitar with many floral type patterns in bright colors. \">\n",
-				"date_published": "2024-07-03T08:25:22-06:00",
+				"date_published": "2024-07-03T09:25:22-05:00",
 				"url": "https://box464.micro.blog/2024/07/03/a-few-art.html"
 			},
 			{
@@ -19,7 +19,7 @@
 				"title": "Mountaineer and Beyond",
 				"content_html": "<p>It&rsquo;s been awhile since I posted, but that doesn&rsquo;t mean I haven&rsquo;t been Salesforcing. The contract has been signed, and we are negotiating with a vendor for development. In addition, I&rsquo;ve continued using Trailhead and just hit Mountaineer the other day.</p>\n<p>I&rsquo;ve been focusing in on a few things in relation to our conversion.</p>\n<h2 id=\"the-initial-setup\">The Initial Setup</h2>\n<p>I&rsquo;ve taken some minor steps after being given the keys to our production and sandbox environments. These guides were very useful, although I didn&rsquo;t follow every single recommendation. It was still a great place to start.</p>\n<ul>\n<li><a href=\"https://www.salesforceben.com/new-salesforce-org-checklist-tasks-to-complete/\">New Salesforce Org Checklist: 13 Tasks to Complete</a></li>\n<li><a href=\"https://www.salesforceben.com/salesforce-implementation/\">Ultimate Guide to a Salesforce Implementation</a></li>\n<li><a href=\"https://developer.salesforce.com/blogs/2018/09/keep-your-org-in-tip-top-shape-with-deployment-best-practices\">Best Practices in your new SF Site</a></li>\n<li><a href=\"https://focusonforce.com/process/things-for-new-salesforce-admins-to-do-in-the-first-week-and-month/\">What to do when you enter as a new admin in an existing SF implementation</a></li>\n<li><a href=\"https://help.salesforce.com/s/articleView?id=sf.setup_overview.htm&amp;type=5\">Set Up and Maintain Your Salesforce Organization</a></li>\n<li><a href=\"https://www.reddit.com/r/salesforce/comments/rcr2yk/what_would_you_do_if_you_had_a_fresh_new_instance/\">Reddit: Suggestions from real Admin on a new instance</a></li>\n<li><a href=\"https://admin.salesforce.com/blog/2019/create-a-vision-for-your-companys-salesforce-instance\">Getting Staff OnBoard with Salesforce</a></li>\n<li><a href=\"https://admin.salesforce.com/blog/2019/five-things-salesforce-admins-can-do-to-improve-adoption\">Improving Adoption</a></li>\n</ul>\n<h2 id=\"authentication\">Authentication</h2>\n<p>We have tons of third party integrations currently. How will we manage those in Salesforce? I&rsquo;ve gone through several Trails related to Identity and at least have an understanding of how it works. This week, my goal is to implement a SAML login with one of our existing applications and see how it goes.</p>\n<h2 id=\"data-conversion\">Data Conversion</h2>\n<p>The majority of our data will be converted over directly to Salesforce. But there are bits and pieces that will still reside in our legacy system. How do we combine the two datasets, and how will our legacy applications continue work moving forward?</p>\n<h2 id=\"metrics-and-data-definitions\">Metrics and Data Definitions</h2>\n<p>I&rsquo;ve also gathered usage metrics from our staff, determined our Subject Matter Experts, and have extracted SQL Schema data with usage metrics and definitions. I plan to utilize a combination of Eleventy and an LLM to generate documentation based on this curated data.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "It's been awhile since I posted, but that doesn't mean I haven't been Salesforcing. The contract has been signed, and we are negotiating with a vendor for development. In addition, I've continued using Trailhead and just hit Mountaineer the other day.\r\n\r\nI've been focusing in on a few things in relation to our conversion.\r\n\r\n## The Initial Setup\r\nI've taken some minor steps after being given the keys to our production and sandbox environments. These guides were very useful, although I didn't follow every single recommendation. It was still a great place to start.\r\n\r\n* [New Salesforce Org Checklist: 13 Tasks to Complete](https://www.salesforceben.com/new-salesforce-org-checklist-tasks-to-complete/)\r\n* [Ultimate Guide to a Salesforce Implementation](https://www.salesforceben.com/salesforce-implementation/)\r\n* [Best Practices in your new SF Site](https://developer.salesforce.com/blogs/2018/09/keep-your-org-in-tip-top-shape-with-deployment-best-practices)\r\n* [What to do when you enter as a new admin in an existing SF implementation](https://focusonforce.com/process/things-for-new-salesforce-admins-to-do-in-the-first-week-and-month/)\r\n* [Set Up and Maintain Your Salesforce Organization](https://help.salesforce.com/s/articleView?id=sf.setup_overview.htm&type=5)\r\n* [Reddit: Suggestions from real Admin on a new instance](https://www.reddit.com/r/salesforce/comments/rcr2yk/what_would_you_do_if_you_had_a_fresh_new_instance/)\r\n* [Getting Staff OnBoard with Salesforce](https://admin.salesforce.com/blog/2019/create-a-vision-for-your-companys-salesforce-instance)\r\n* [Improving Adoption](https://admin.salesforce.com/blog/2019/five-things-salesforce-admins-can-do-to-improve-adoption)\r\n\r\n\r\n## Authentication\r\nWe have tons of third party integrations currently. How will we manage those in Salesforce? I've gone through several Trails related to Identity and at least have an understanding of how it works. This week, my goal is to implement a SAML login with one of our existing applications and see how it goes.\r\n\r\n## Data Conversion\r\nThe majority of our data will be converted over directly to Salesforce. But there are bits and pieces that will still reside in our legacy system. How do we combine the two datasets, and how will our legacy applications continue work moving forward?\r\n\r\n## Metrics and Data Definitions\r\nI've also gathered usage metrics from our staff, determined our Subject Matter Experts, and have extracted SQL Schema data with usage metrics and definitions. I plan to utilize a combination of Eleventy and an LLM to generate documentation based on this curated data.\r\n\r\n\r\n\n\n<img src=\"uploads/2024/screenshot-2024-04-01-at-10.25.01pm.png\" width=\"274\" height=\"205\" alt=\"A digital badge with the title &quot;Mountainner&quot;. Purple mountains appear in the background.\">\n",
-				"date_published": "2024-04-01T21:27:21-06:00",
+				"date_published": "2024-04-01T22:27:21-05:00",
 				"url": "https://box464.micro.blog/2024/04/01/mountaineer-and-beyond.html",
 				"tags": ["salesforce"]
 			},
@@ -28,7 +28,7 @@
 				"title": "No going back - we're on the path to Salesforce",
 				"content_html": "<p>After a short detour into ZenDesk, I&rsquo;m back to Salesforce! We&rsquo;ve made some decisions on our product suite. One of my staff said &ldquo;that&rsquo;s all&rdquo;? And I almost fell over lol. There&rsquo;s so much to learn. At least I can focus in on these specific areas now, and guide our subject matter experts in the right direction.</p>\n<ul>\n<li><a href=\"https://trailhead.salesforce.com/content/learn/modules/sales-cloud-platform-quick-look\">Sales Cloud</a></li>\n<li><a href=\"https://trailhead.salesforce.com/content/learn/modules/service-cloud-platform-quick-look?trail_id=empower-managers-and-agents-with-the-service-cloud-platform\">Service Cloud</a></li>\n<li><a href=\"https://trailhead.salesforce.com/content/learn/modules/cc_ccbasics/cc_ccbasics_getstarted\">Commerce Cloud</a></li>\n<li><a href=\"https://trailhead.salesforce.com/content/learn/modules/mrkt_cloud_basics\">Marketing Cloud</a></li>\n</ul>\n",
 				"content_text": "After a short detour into ZenDesk, I'm back to Salesforce! We've made some decisions on our product suite. One of my staff said \"that's all\"? And I almost fell over lol. There's so much to learn. At least I can focus in on these specific areas now, and guide our subject matter experts in the right direction.\r\n\r\n* [Sales Cloud](https://trailhead.salesforce.com/content/learn/modules/sales-cloud-platform-quick-look) \r\n* [Service Cloud](https://trailhead.salesforce.com/content/learn/modules/service-cloud-platform-quick-look?trail_id=empower-managers-and-agents-with-the-service-cloud-platform)\r\n* [Commerce Cloud](https://trailhead.salesforce.com/content/learn/modules/cc_ccbasics/cc_ccbasics_getstarted)\r\n* [Marketing Cloud](https://trailhead.salesforce.com/content/learn/modules/mrkt_cloud_basics)\n",
-				"date_published": "2024-02-19T21:48:37-06:00",
+				"date_published": "2024-02-19T22:48:37-05:00",
 				"url": "https://box464.micro.blog/2024/02/19/no-going-back.html",
 				"tags": ["salesforce"]
 			},
@@ -37,7 +37,7 @@
 				
 				"content_html": "<p>It would be cheating to tell you exactly how, but by reading the documentation for your micro.blog subscription, you can pick up some awesome stickers for your collection.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "It would be cheating to tell you exactly how, but by reading the documentation for your micro.blog subscription, you can pick up some awesome stickers for your collection.\n\n<img src=\"uploads/2024/d5b494fa8c.png\" width=\"600\" height=\"389\" alt=\"A physical piece of mail in a plain brown envelope has been opened. Sticking out is a small note that reads &quot;Thank you for microblogging!&quot; with several hand drawn stars surrounding it. Along the sides, two microblog logo stickers, yellow and white, are displayed.\">\n",
-				"date_published": "2024-01-17T22:51:38-06:00",
+				"date_published": "2024-01-17T23:51:38-05:00",
 				"url": "https://box464.micro.blog/2024/01/17/it-would-be.html"
 			},
 			{
@@ -45,7 +45,7 @@
 				
 				"content_html": "<p>Got my Admin Beginner trail completed.  Excited to start intermediate this week! My team is now meeting Mondays and Fridays to talk about what we&rsquo;ve learned and how it could be utilized in our company.</p>\n<p>We haven&rsquo;t made the jump to Salesforce YET, but plan to within the year. Lots to do before then.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Got my Admin Beginner trail completed.  Excited to start intermediate this week! My team is now meeting Mondays and Fridays to talk about what we've learned and how it could be utilized in our company. \r\n\r\nWe haven't made the jump to Salesforce YET, but plan to within the year. Lots to do before then.\n\n<img src=\"uploads/2024/screenshot-2024-01-15-at-11.47.34pm.png\" width=\"600\" height=\"258\" alt=\"A screenshot of my completed Admin Beginner trail. Green checkmark!\">\n",
-				"date_published": "2024-01-15T23:50:16-06:00",
+				"date_published": "2024-01-16T00:50:16-05:00",
 				"url": "https://box464.micro.blog/2024/01/15/got-my-admin.html"
 			},
 			{
@@ -53,7 +53,7 @@
 				
 				"content_html": "<p>I&rsquo;m amused to find that #Salesforce dashboards allow animated gifs. Is it useful? Not in any way I see right now.</p>\n<p>Will I use it for personal dashboards? Maybe. 🤭</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I'm amused to find that #Salesforce dashboards allow animated gifs. Is it useful? Not in any way I see right now. \n\nWill I use it for personal dashboards? Maybe. 🤭\n\n<img src=\"https://cdn.uploads.micro.blog/134708/2024/0fbd5c90e9.png\" width=\"600\" height=\"309\" alt=\"A Salesforce playground starter dashboard with an animated gif of a person sipping tea. Links to my personal sites are below, and a pie chart of current case statuses sits to the right. Opportunities to work report sits below.\">\n",
-				"date_published": "2024-01-07T15:41:15-06:00",
+				"date_published": "2024-01-07T16:41:15-05:00",
 				"url": "https://box464.micro.blog/2024/01/07/im-amused-to.html",
 				"tags": ["salesforce"]
 			},
@@ -62,7 +62,7 @@
 				
 				"content_html": "<p>Getting close to completing the Admin Beginner trail. I keep getting surprised with the number of things included with the base #Salesforce implementation compared to our current platform. Today, it was the learning paths and guidance modules that are fairly customizable. Handy.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Getting close to completing the Admin Beginner trail. I keep getting surprised with the number of things included with the base #Salesforce implementation compared to our current platform. Today, it was the learning paths and guidance modules that are fairly customizable. Handy.\n\n<img src=\"https://cdn.uploads.micro.blog/134708/2024/sf-guided-dock.webp\" width=\"483\" height=\"468\" alt=\"A screenshot of a Salesforce prompt showing a video tutorial.\">\n",
-				"date_published": "2024-01-06T09:45:49-06:00",
+				"date_published": "2024-01-06T10:45:49-05:00",
 				"url": "https://box464.micro.blog/2024/01/06/getting-close-to.html",
 				"tags": ["salesforce"]
 			},
@@ -71,7 +71,7 @@
 				
 				"content_html": "<p>I want to start learning keyboard shortcuts for #Salesforce so I can get in the habit of using them. Is this the appropriate list, anyone have some extra special hidden secret ones to share?</p>\n<p><a href=\"https://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&amp;type=5\">Keyboard Shortcuts for Salesforce</a></p>\n",
 				"content_text": "I want to start learning keyboard shortcuts for #Salesforce so I can get in the habit of using them. Is this the appropriate list, anyone have some extra special hidden secret ones to share? \n\n[Keyboard Shortcuts for Salesforce](https://help.salesforce.com/s/articleView?id=sf.console_lex_keyboard_shortcuts.htm&type=5)\n",
-				"date_published": "2024-01-04T20:48:26-06:00",
+				"date_published": "2024-01-04T21:48:26-05:00",
 				"url": "https://box464.micro.blog/2024/01/04/i-want-to.html",
 				"tags": ["salesforce"]
 			},
@@ -80,7 +80,7 @@
 				
 				"content_html": "<p>Worked through a few #Salesforce Lightning Experience customizations tonight - views and compact layouts. I see there&rsquo;s an attempt to build responsive views. It&rsquo;s suprisingly good, but I do see that in most cases tweaks would be necessary.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Worked through a few #Salesforce Lightning Experience customizations tonight - views and compact layouts. I see there's an attempt to build responsive views. It's suprisingly good, but I do see that in most cases tweaks would be necessary.\n\n<img src=\"uploads/2024/screenshot-2024-01-02-at-11.22.44pm.png\" width=\"600\" height=\"150\" alt=\"Screenshot of a Salesforce Opportunity, shown with a custom layout.\">\n",
-				"date_published": "2024-01-02T23:23:48-06:00",
+				"date_published": "2024-01-03T00:23:48-05:00",
 				"url": "https://box464.micro.blog/2024/01/02/worked-through-a.html",
 				"tags": ["salesforce"]
 			},
@@ -89,7 +89,7 @@
 				"title": "Data Models in #Salesforce",
 				"content_html": "<p>Learning about Data Models and the Schema Builder in SF today. It&rsquo;s comforting to see these web based tools and how closely it ties to the raw database. For me as a developer / technical person, anyway.</p>\n<p>I&rsquo;ve worked in systems previously where making these types of changes took much longer, and pulling up a visualization like this would be impossible or take a long time to compile and display.</p>\n<p>I wish you could re-order the fields when you add a new one, like if you add a Street Address City, you can&rsquo;t move it to appear after Street Address Line 2. I understand why that&rsquo;s a hassle (you&rsquo;d have to drop the table and recreate it) but it would be nice to have some hidden metadata store the sort values purely for presentational purposes.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Learning about Data Models and the Schema Builder in SF today. It's comforting to see these web based tools and how closely it ties to the raw database. For me as a developer / technical person, anyway. \n\nI've worked in systems previously where making these types of changes took much longer, and pulling up a visualization like this would be impossible or take a long time to compile and display.\n\nI wish you could re-order the fields when you add a new one, like if you add a Street Address City, you can't move it to appear after Street Address Line 2. I understand why that's a hassle (you'd have to drop the table and recreate it) but it would be nice to have some hidden metadata store the sort values purely for presentational purposes. \n\n\n<img src=\"https://cdn.uploads.micro.blog/134708/2023/3210e5ef58.png\" width=\"600\" height=\"333\" alt=\"Diagram of tables, fields and relationships. This one is showing a Contact, associated Offers, Favorites, and Properties.\">\n",
-				"date_published": "2023-12-31T09:10:28-06:00",
+				"date_published": "2023-12-31T10:10:28-05:00",
 				"url": "https://box464.micro.blog/2023/12/31/data-models-in.html"
 			},
 			{
@@ -97,7 +97,7 @@
 				
 				"content_html": "<p>I didn&rsquo;t realize that micro.blog hides your followers. So I have no idea who is following me. It&rsquo;s quite a shock coming from other platforms, and I&rsquo;m curious how it will affect what I write or who I interact with any differently than if I knew a person was a follower, mutual, or not.</p>\n",
 				"content_text": "I didn't realize that micro.blog hides your followers. So I have no idea who is following me. It's quite a shock coming from other platforms, and I'm curious how it will affect what I write or who I interact with any differently than if I knew a person was a follower, mutual, or not.\n",
-				"date_published": "2023-12-30T17:23:23-06:00",
+				"date_published": "2023-12-30T18:23:23-05:00",
 				"url": "https://box464.micro.blog/2023/12/30/i-didnt-realize.html"
 			},
 			{
@@ -105,7 +105,7 @@
 				
 				"content_html": "<p>Going through the #Salesforce Admin Beginner Trail and got the Adventurer badge. A refresher on databases so far, but in a point and click way rather than creating schemas or using code to create them directly.</p>\n<p>Of course, it&rsquo;s ALSO building the interface for you along the way, which is nice.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Going through the #Salesforce Admin Beginner Trail and got the Adventurer badge. A refresher on databases so far, but in a point and click way rather than creating schemas or using code to create them directly.\n\nOf course, it's ALSO building the interface for you along the way, which is nice.\n\n<img src=\"https://cdn.uploads.micro.blog/134708/2023/3ed052e43e.png\" width=\"177\" height=\"154\" alt=\"A digital badge that says “Adventurer”. The badge displays a campfire at night, with a dark blue starry sky and mountains behind it. It’s in the shape of a common cloth stitched badge.\">\n",
-				"date_published": "2023-12-29T14:37:51-06:00",
+				"date_published": "2023-12-29T15:37:51-05:00",
 				"url": "https://box464.micro.blog/2023/12/29/going-through-the.html"
 			},
 			{
@@ -113,7 +113,7 @@
 				
 				"content_html": "<p>If you got a random follow from this account today, it&rsquo;s because I am looking for friendly faces with #Salesforce experience to follow and keep me inspired in the coming year. :)</p>\n",
 				"content_text": "If you got a random follow from this account today, it's because I am looking for friendly faces with #Salesforce experience to follow and keep me inspired in the coming year. :)\n",
-				"date_published": "2023-12-29T10:12:30-06:00",
+				"date_published": "2023-12-29T11:12:30-05:00",
 				"url": "https://box464.micro.blog/2023/12/29/if-you-got.html"
 			},
 			{
@@ -121,7 +121,7 @@
 				"title": "Getting prepped for #Salesforce",
 				"content_html": "<p>Many years ago, I bought my first home, and it was a bit of a fixer upper. Built in the late 1940s, it hadn&rsquo;t been updated much since. But it&rsquo;s what I could afford at the time, and I spent several years doing nothing else other than tending to it and making improvements where I could.</p>\n<p>When the time came, I sold it for a profit, and was able to purchase a larger home with less work needed.</p>\n<p>I feel like this is where I am at work as well. We&rsquo;ve been working fine in an old system, learning its ins and outs, and made the best use of what we had. It&rsquo;s been a success, but it&rsquo;s time to move on to a bigger platform with more room to work! That&rsquo;s where Salesforce comes in.</p>\n<p>I initially began Trailhead modules randomly, as I had no idea where to start. I took a lot of beginner courses (<a href=\"https://trailhead.salesforce.com/content/learn/modules/trailhead_basics\">how to navigate the site</a>, <a href=\"https://trailhead.salesforce.com/en/career-path\">the career paths</a>, beginner courses for <a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce-developer-quick-look\">developer</a> and <a href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce-admin-quick-look\">admin</a>) and finally decided to focus on SF administration, with a light dash of developer knowledge.</p>\n<p>Until recently, I have been a developer, or at least a manager working side by side with developers. Now in a full managerial mode, I have to remind myself to let others take on the details and focus on the larger picture, helping to guide the team and provide direction toward our end goals.</p>\n<p>Now that I have a clearer picture of my own personal objectives, I am moving into the Admin path and hoping to achieve a certification by Fall 2024 at the latest.</p>\n<p>I&rsquo;m making a few custodial decision here as I start posting as well:</p>\n<ul>\n<li>I will use the #Salesforce tag early in each post to ensure reach to interested parties.</li>\n<li>To avoid having posts that have the term Salesforce in them 500 times, I&rsquo;ll refer to it as SF after that initial tag.</li>\n<li>I&rsquo;ve setup the blog to request no indexing by search engines. This is basically a journal of my process that I&rsquo;m happy to share with those that find it on Micro.blog or Mastodon, but otherwise there is no need to be included in larger search engines.</li>\n</ul>\n<p>Next, I want to build out simple /links and /uses page with items specific to the SF journey.</p>\n<p>Wish me luck!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Many years ago, I bought my first home, and it was a bit of a fixer upper. Built in the late 1940s, it hadn't been updated much since. But it's what I could afford at the time, and I spent several years doing nothing else other than tending to it and making improvements where I could.\r\n\r\nWhen the time came, I sold it for a profit, and was able to purchase a larger home with less work needed.\r\n\r\nI feel like this is where I am at work as well. We've been working fine in an old system, learning its ins and outs, and made the best use of what we had. It's been a success, but it's time to move on to a bigger platform with more room to work! That's where Salesforce comes in.\r\n\r\nI initially began Trailhead modules randomly, as I had no idea where to start. I took a lot of beginner courses ([how to navigate the site](https://trailhead.salesforce.com/content/learn/modules/trailhead_basics), [the career paths](https://trailhead.salesforce.com/en/career-path), beginner courses for [developer](https://trailhead.salesforce.com/content/learn/modules/salesforce-developer-quick-look) and [admin](https://trailhead.salesforce.com/content/learn/modules/salesforce-admin-quick-look)) and finally decided to focus on SF administration, with a light dash of developer knowledge.\r\n\r\nUntil recently, I have been a developer, or at least a manager working side by side with developers. Now in a full managerial mode, I have to remind myself to let others take on the details and focus on the larger picture, helping to guide the team and provide direction toward our end goals.\r\n\r\nNow that I have a clearer picture of my own personal objectives, I am moving into the Admin path and hoping to achieve a certification by Fall 2024 at the latest.\r\n\r\nI'm making a few custodial decision here as I start posting as well:\r\n\r\n* I will use the #Salesforce tag early in each post to ensure reach to interested parties.\r\n* To avoid having posts that have the term Salesforce in them 500 times, I'll refer to it as SF after that initial tag.\r\n* I've setup the blog to request no indexing by search engines. This is basically a journal of my process that I'm happy to share with those that find it on Micro.blog or Mastodon, but otherwise there is no need to be included in larger search engines.\r\n\r\nNext, I want to build out simple /links and /uses page with items specific to the SF journey.\r\n\r\nWish me luck!\n\n<img src=\"https://cdn.uploads.micro.blog/134708/2023/june5-014.jpeg\" width=\"600\" height=\"450\" alt=\"A 1940s home built in the United States, updated in the early 2000s.\">\n",
-				"date_published": "2023-12-29T08:54:02-06:00",
+				"date_published": "2023-12-29T09:54:02-05:00",
 				"url": "https://box464.micro.blog/2023/12/29/getting-prepped-for.html",
 				"tags": ["salesforce"]
 			}
